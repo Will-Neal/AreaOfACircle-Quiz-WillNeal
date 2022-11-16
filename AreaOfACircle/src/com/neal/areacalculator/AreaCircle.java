@@ -15,7 +15,6 @@ public class AreaCircle {
 		displayArea();
 	}
 	
-	
 	/**
 	 * Takes in radius and PI and assigns the result of the calculation to the area variable
 	 */

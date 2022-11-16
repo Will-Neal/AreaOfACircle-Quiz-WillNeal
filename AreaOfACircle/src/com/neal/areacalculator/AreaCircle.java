@@ -1,5 +1,11 @@
 package com.neal.areacalculator;
 
+
+
+/**
+ * @author will
+ * Calculates area of circle and prints result
+ */
 public class AreaCircle {
 	
 	static double area;
@@ -7,14 +13,21 @@ public class AreaCircle {
 	final static double PI = 3.14;
 	
 	public static void main(String[] args) {
-		calcAreaOfCitcle(radius, PI);
+		calcAreaOfCircle(radius, PI);
 		displayArea();
 	}
 	
-	public static void calcAreaOfCitcle(double radius, double pi) {
+	
+	/**
+	 * Takes in radius and PI and assigns the result of the calculation to the area variable
+	 */
+	public static void calcAreaOfCircle(double radius, double pi) {
 		area = pi * (radius * radius);
 	}
 	
+	/**
+	 * Prints the area to the console
+	 */
 	public static void displayArea() {
 		System.out.println(area);
 	}
